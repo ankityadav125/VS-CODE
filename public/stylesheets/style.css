@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.left-panel {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(208, 205, 205);
+  padding: 20px;
+}
+
+.right-panel {
+  height: 100%;
+  width: 80%;
+  background-color: rgb(229, 179, 179);
+}
